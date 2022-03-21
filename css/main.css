@@ -11980,7 +11980,8 @@ textarea.form-control-lg {
 }
 
 body {
-  background-image: radial-gradient(circle 602px at 2.1% 5.1%, #e90078 0%, black 90.1%);
+  background-image: radial-gradient(circle 602px at 2.1% 5.1%, #dd1818 /* #e90078*/ 0%, black 90.1%);
+ /* background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);*/
   font-weight: 300;
 }
 
@@ -12001,6 +12002,8 @@ header {
   text-decoration: none;
   font-weight: 300;
 }
+
+
 
 #titulo:hover {
   font-weight: 500;
@@ -12333,7 +12336,7 @@ video {
       -ms-grid-row-align: center;
       align-self: center;
   padding: 2.5rem;
-  background-image: radial-gradient(circle 602px at 2.1% 5.1%, #e90078 0%, black 90.1%);
+  background-image: radial-gradient(circle 602px at 2.1% 5.1%, #dd1818 /*#e90078*/ 0%, black 90.1%);
 }
 #contactopadre #contacto h1, #contactopadre #contacto .h1 {
   font-weight: 800;
@@ -12366,7 +12369,7 @@ a:hover {
 }
 
 .nav-link:hover {
-  color: #000099;
+  color: #dd1818 /*#000099*/;
 }
 
 p:last-child {
@@ -12392,12 +12395,12 @@ p:last-child {
   font-size: 12px;
 }
 .featured-post-inner.featured-post-1 {
-  background-image: url(../img/15.jpeg);
+  background-image: url(../img/55.jpg);
   background-position: center;
   background-size: cover;
 }
 .featured-post-inner.featured-post-2 {
-  background-image: url(../img/13.jpeg);
+  background-image: url(../img/mesa06.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -12475,7 +12478,7 @@ h1, .h1 {
   /*background: #D3CCE3;
   background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
   background: linear-gradient(to right, #E9E4F0, #D3CCE3);*/
-  background-image: radial-gradient(circle 602px at 2.1% 5.1%, #e90078 0%, black 90.1%);
+  background-image: radial-gradient(circle 602px at 2.1% 5.1%,  #dd1818 /*#e90078*/ 0%, black 90.1%);
 }
 
 @media (max-width: 575px) {
@@ -12640,7 +12643,7 @@ ul.acordeon li {
 }
 
 ul.acordeon li:first-of-type {
-  background-image: url(../img/1.jpeg);
+  background-image: url(../img/22.jpg);
   background-size: cover;
   background-position: center;
   
@@ -12655,7 +12658,7 @@ ul.acordeon li:nth-of-type(2) {
 
 
 ul.acordeon li:nth-of-type(3) {
-  background-image: url(../img/4.jpeg);
+  background-image: url(../img/9.jpeg);
   background-size: cover;
   background-position: center;
 
@@ -12663,7 +12666,7 @@ ul.acordeon li:nth-of-type(3) {
 
 
 ul.acordeon li:nth-of-type(4) {
-  background-image: url(../img/3.jpeg);
+  background-image: url(../img/67.jpg);
   background-size: cover;
   background-position: center;
  
@@ -12767,7 +12770,7 @@ ul.acordeon li .contenido .enlace {
   color: white;
 
   
-  font-size: 28px;
+  font-size: 18px;
 
   opacity: 0;
 
@@ -12784,6 +12787,10 @@ ul.acordeon li:hover .texto {
 
 ul.acordeon li:hover .enlace {
   opacity: 1;
+}
+
+.enlace:hover{
+  background: #151515;
 }
 
 
