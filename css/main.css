@@ -12479,6 +12479,9 @@ h1, .h1 {
 }
 
 @media (max-width: 575px) {
+  .tarjeta .cardi .content{
+    opacity: 1;
+  }
   .mostrador__img {
     width: 80vw;
     height: 80vw;
@@ -12583,14 +12586,12 @@ ul.acordeon * {
   transition: all .4s ease-in-out;
 }
 
-.main{
-  height: 60vh;
-}
+
 
 /* Contenedor general */
 ul.acordeon {
 
-  height: 500px;
+  height: 60vh;
   width: 100%;
   overflow: hidden;
   padding: 0;
@@ -12600,7 +12601,7 @@ ul.acordeon {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 1rem;
+  
 }
 
 
@@ -12618,7 +12619,7 @@ ul.acordeon li {
   zoom: 1;
   /* IE7 */
   width: 10%;
-  height: 10%;
+  height: 60%;
   padding-bottom: 40%;
   /* Ratio aspecto imagen = (height*X)/width */
   background: #eee;
@@ -12632,7 +12633,7 @@ ul.acordeon li {
 
   
 
-  border-radius:120px;
+  border-radius:30px;
 
 
  
