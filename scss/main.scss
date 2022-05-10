@@ -12,6 +12,8 @@ opacity .2s ease-out;
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +24,7 @@ body {
     background-image: radial-gradient(circle 602px at 2.1% 5.1%, rgba(233, 0, 120, 1) 0%, rgba(0, 0, 0, 1) 90.1%);
     font-weight: 300;
 }
+
 
 
 header {
@@ -333,7 +336,7 @@ video{
 }
 
 
-
+/*
 
 a {
     font-family: 'Text Me One', sans-serif;
@@ -346,7 +349,7 @@ a {
         transform: translateY(10px) scale(1.05);
         transition: all 0.5s linear;
     }
-}
+}*/
 
 
 
