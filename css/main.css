@@ -12867,6 +12867,19 @@ ul.acordeon li:hover h1 {
   ul.acordeon li:hover .enlace{
      font-size:8px;
   }
+  #contactopadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    flex-direction: column;
+    height:100%;
+
+  }
+  #contactopadre #cajamodelo{
+    display: block;
+    }
 }
 @media(max-width:720px) {
   ul.acordeon li h1 {
