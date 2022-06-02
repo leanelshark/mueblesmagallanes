@@ -12889,4 +12889,55 @@ ul.acordeon li:hover h1 {
   ul.acordeon li:hover .enlace{
      font-size:12px;
   }
+
+  #contactopadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    flex-direction: column;
+    height:100%;
+
+  }
+  #contactopadre #cajamodelo{
+    display: block;
+    }
+}
+
+@media(max-width:900px) {
+  ul.acordeon li h1 {
+     font-size: 18px;
+     letter-spacing: 1px;
+  }
+  ul.acordeon li p{
+     font-size:12px;
+  }
+  ul.acordeon li a{
+     font-size:12px;
+  }
+  ul.acordeon li:hover h1 {
+     font-size: 18px;
+     letter-spacing: 1px;
+  }
+  ul.acordeon li:hover p{
+     font-size:12px;
+  }
+  ul.acordeon li:hover .enlace{
+     font-size:12px;
+  }
+
+  #contactopadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    flex-direction: column;
+    height:100%;
+
+  }
+  #contactopadre #cajamodelo{
+    display: block;
+    }
 }
